@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&display=swap");
+
+:root {
+  --black: 0 0% 0%; /* #000000 */
+  --white: 0 0% 100%; /* #ffffff */
+  --bright-yellow: 47 100% 57%; /* #ffd11a */
+  --light-yellow: 47 100% 60%; /* #ffd633 */
+  --soft-yellow: 47 100% 70%; /* #ffe066 */
+  --pale-yellow: 47 100% 80%; /* #ffeb99 */
+  --cream-yellow: 47 100% 90%; /* #fff5cc */
+  --lightest-yellow: 47 100% 95%; /* #fffae5 */
+  --subtle-yellow: 47 100% 97%; /* #fffcf0 */
+  --almost-white: 240 6% 98%; /* #fbfbfe */
+  --deep-black: 0 0% 8%; /* #141414 */
+  --dark-black: 0 0% 10%; /* #1a1a1a */
+  --charcoal: 0 0% 15%; /* #262626 */
+  --graphite: 0 0% 20%; /* #333333 */
+  --stone-grey: 0 0% 25%; /* #404040 */
+  --ash-grey: 0 0% 30%; /* #4d4d4d */
+  --smoke-grey: 0 0% 35%; /* #595959 */
+  --slate-grey: 0 0% 40%; /* #666666 */
+  --neutral-grey: 240 1% 49%; /* #7e7e81 */
+  --soft-grey: 240 1% 60%; /* #98989a */
+  --medium-grey: 0 0% 70%; /* #b3b3b3 */
+  --light-grey: 0 0% 80%; /* #cccccc */
+  --off-white: 240 9% 91%; /* #e4e4e7 */
+  --frost: 240 8% 95%; /* #f1f1f3 */
+  --snow: 240 7% 97%; /* #f7f7f8 */
+  --pearl: 240 6% 99%; /* #fcfcfd */
+}

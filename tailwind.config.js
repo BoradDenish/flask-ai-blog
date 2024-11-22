@@ -2,8 +2,45 @@
 module.exports = {
   content: ["./templates/**/*.{html,js}"],
   theme: {
+    container: {
+      center: true,
+      screens: {
+        xl: "1280px",
+      },
+    },
+    fontFamily: {
+      sans: ["Inter", "sans-serif"],
+      serif: ["Kumbh Sans", "sans-serif"],
+    },
+    colors: {
+      black: "hsl(var(--black) / <alpha-value>)",
+      white: "hsl(var(--white) / <alpha-value>)",
+      "bright-yellow": "hsl(var(--bright-yellow) / <alpha-value>)",
+      "light-yellow": "hsl(var(--light-yellow) / <alpha-value>)",
+      "soft-yellow": "hsl(var(--soft-yellow) / <alpha-value>)",
+      "pale-yellow": "hsl(var(--pale-yellow) / <alpha-value>)",
+      "cream-yellow": "hsl(var(--cream-yellow) / <alpha-value>)",
+      "lightest-yellow": "hsl(var(--lightest-yellow) / <alpha-value>)",
+      "subtle-yellow": "hsl(var(--subtle-yellow) / <alpha-value>)",
+      "almost-white": "hsl(var(--almost-white) / <alpha-value>)",
+      "deep-black": "hsl(var(--deep-black) / <alpha-value>)",
+      "dark-black": "hsl(var(--dark-black) / <alpha-value>)",
+      charcoal: "hsl(var(--charcoal) / <alpha-value>)",
+      graphite: "hsl(var(--graphite) / <alpha-value>)",
+      "stone-grey": "hsl(var(--stone-grey) / <alpha-value>)",
+      "ash-grey": "hsl(var(--ash-grey) / <alpha-value>)",
+      "smoke-grey": "hsl(var(--smoke-grey) / <alpha-value>)",
+      "slate-grey": "hsl(var(--slate-grey) / <alpha-value>)",
+      "neutral-grey": "hsl(var(--neutral-grey) / <alpha-value>)",
+      "soft-grey": "hsl(var(--soft-grey) / <alpha-value>)",
+      "medium-grey": "hsl(var(--medium-grey) / <alpha-value>)",
+      "light-grey": "hsl(var(--light-grey) / <alpha-value>)",
+      "off-white": "hsl(var(--off-white) / <alpha-value>)",
+      frost: "hsl(var(--frost) / <alpha-value>)",
+      snow: "hsl(var(--snow) / <alpha-value>)",
+      pearl: "hsl(var(--pearl) / <alpha-value>)",
+    },
     extend: {},
   },
   plugins: [],
-}
-
+};
