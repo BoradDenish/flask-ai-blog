@@ -1,3 +1,55 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body {
+  @apply bg-deep-black w-full h-full;
+}
+
+.hero-infomation-box {
+  @apply py-[30px] xl:py-10 2xl:py-[50px] space-y-2.5 xl:space-y-5 2xl:space-y-[30px];
+}
+
+.hero-infomation-box:nth-child(1) {
+  @apply xl:pr-12 2xl:pr-20;
+}
+.hero-infomation-box:nth-child(2) {
+  @apply xl:px-12 2xl:px-20;
+}
+
+.hero-infomation-box:nth-child(3) {
+  @apply xl:pl-12 2xl:pl-20;
+}
+
+.hero-infomation-box .title {
+  @apply font-medium 2xl:text-xl xl:text-lg text-base text-white;
+}
+
+.hero-infomation-box .sub-title {
+  @apply 2xl:text-lg xl:text-base text-sm text-neutral-grey;
+}
+
+.hero-infomation-box .icon {
+  @apply 2xl:w-12 2xl:h-12 xl:w-10 xl:h-10 w-7 h-7;
+}
+
+.hero-infomation-box p {
+  @apply font-serif text-base 2xl:text-xl text-soft-grey;
+}
+
+.hero-infomation-box .link-btn {
+  @apply min-w-10 min-h-10 max-w-10 max-h-10 xl:min-w-11 xl:min-h-11 xl:max-w-11 xl:max-h-11 2xl:min-w-12 2xl:min-h-12 2xl:max-w-12 2xl:max-h-12 flex items-center justify-center rounded-full bg-bright-yellow;
+}
+
+.section-heading {
+  @apply border-y border-charcoal w-full py-10 xl:py-20 2xl:py-[120px] bg-dark-black;
+}
+
+.section-heading h3 {
+  @apply text-white font-serif text-[28px] font-medium xl:text-[44px] 2xl:text-[58px] mt-2.5 2xl:mt-4;
+}
+
+.section-heading h5 {
+  @apply text-sm font-medium py-1 px-2 rounded text-white bg-graphite w-fit xl:text-base 2xl:text-xl 2xl:py-1.5 2xl:px-2.5;
+}

@@ -4,8 +4,10 @@ module.exports = {
   theme: {
     container: {
       center: true,
+      padding: '16px',
       screens: {
-        xl: "1280px",
+        "2xl": "1580px",
+        "xl": "1264px",
       },
     },
     fontFamily: {
