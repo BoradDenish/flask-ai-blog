@@ -192,26 +192,62 @@ footer {
   @apply text-sm text-slate-grey 2xl:text-lg;
 }
 
-.contact-detail-links{
-  @apply space-y-2.5
+.contact-detail-links {
+  @apply space-y-2.5;
 }
 
-.contact-detail-links li a{
+.contact-detail-links li a {
   @apply flex items-center gap-1 py-3.5 px-5 2xl:px-6 2xl:py-4 border border-solid border-charcoal rounded-md bg-dark-black text-soft-grey w-fit;
 }
 
-.contact-details-box{
-  @apply py-5 space-y-5 xl:py-14 xl:space-y-7 2xl:py-20 2xl:space-y-12 
+.contact-details-box {
+  @apply py-5 space-y-5 xl:py-14 xl:space-y-7 2xl:py-20 2xl:space-y-12;
 }
 
-.contact-details-box:nth-child(1){
-  @apply xl:pr-7 2xl:pr-12
+.contact-details-box:nth-child(1) {
+  @apply xl:pr-7 2xl:pr-12;
 }
 
-.contact-details-box:nth-child(2){
-  @apply xl:px-7 2xl:px-12
+.contact-details-box:nth-child(2) {
+  @apply xl:px-7 2xl:px-12;
 }
 
-.contact-details-box:nth-child(3){
-  @apply xl:pl-7 2xl:pl-12
+.contact-details-box:nth-child(3) {
+  @apply xl:pl-7 2xl:pl-12;
+}
+
+.contact-section {
+  @apply grid grid-cols-3 items-center divide-x divide-charcoal w-full;
+}
+
+.contact-section .contact-heading {
+  @apply space-y-5 xl:space-y-7 2xl:space-y-12 xl:pr-14 2xl:pr-20;
+}
+
+.contact-section .contact-content {
+  @apply xl:py-14 2xl:py-20 xl:pl-14 2xl:pr-20 col-span-2;
+}
+
+.faq-list {
+  @apply space-y-6;
+}
+
+.faq-list li {
+  @apply border border-charcoal divide-y divide-charcoal bg-dark-black rounded-xl p-6 2xl:p-8;
+}
+
+.faq-list li .faq-head {
+  @apply flex items-center justify-between w-full mb-4 xl:mb-5 2xl:mb-6;
+}
+
+.faq-list li .faq-body {
+  @apply pt-4 xl:pt-5 2xl:pt-6;
+}
+
+.faq-list li .faq-body p {
+  @apply text-sm text-neutral-grey xl:text-base 2xl:text-lg;
+}
+
+.faq-list li .faq-head h6{
+  @apply text-white font-medium text-base xl:text-lg 2xl:text-xl
 }
